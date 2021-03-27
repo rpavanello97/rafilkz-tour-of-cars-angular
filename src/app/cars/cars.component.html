@@ -1,0 +1,8 @@
+<h3>{{car.name | uppercase}} Details</h3>
+<div>
+    <span>id: </span>{{car.id}}
+</div>
+<div>
+    <label for="name">Car name: </label>
+    <input id="name" [(ngModel)]="car.name" placeholder="name">
+</div>
