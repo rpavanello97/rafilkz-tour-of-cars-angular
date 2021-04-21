@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+
 import { Car } from '../car';
+import { CARS } from '../mock-cars';
+
 
 @Component({
   selector: 'app-cars',
@@ -12,6 +15,8 @@ export class CarsComponent implements OnInit {
     id: 1,
     name: 'Bugatti'
   }
+
+  cars = CARS;
 
   constructor() { }
 
